@@ -1,3 +1,5 @@
+import { Payload } from './Payload';
+
 export class Astronaut implements Payload{
     massKg: number;
     name: string;
@@ -8,4 +10,3 @@ export class Astronaut implements Payload{
 }
 
 
-import { Payload } from './Payload';
